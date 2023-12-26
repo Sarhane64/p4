@@ -7,7 +7,7 @@ class ItemManager extends AbstractManager {
     super({ table: "item" });
   }
 
-  // The C of CRUD - Create operation
+  // The C of CRUD - Create operationA
 
   async create(item) {
     // Execute the SQL INSERT query to add a new item to the "item" table
